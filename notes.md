@@ -17,6 +17,18 @@ The above diagram has two states, even(0) and odd(1). The initial state is even(
 
 ## base 10 multiple of 3 
 
+           1              0              1
+       +--------+      +--------+      +--------+
+       |   A    |      |   B    |      |   C    |
+   +---|mod 3 = 0|  0   |mod 3 = 1|  1   |mod 3 = 2|---+
+   |   +--------+      +--------+      +--------+   |
+   |                                                   |
+   |               0              1                     |
+   |               +--------+      +--------+           |
+   +---------------|   C    |  0   |   A    |-----------+
+                   |mod 3 = 0|      |mod 3 = 1|
+                   +--------+      +--------+
+
 transition states are much more complex, I just used the machines we drew! 
 
 States were: F, G, H, and I (because substring used abcde)
