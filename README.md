@@ -21,4 +21,4 @@ There are a few ways of implementation: either considering the states/nodes as f
 
 ![example of diagrams](https://cloud-il9tnmasw-hack-club-bot.vercel.app/0img_6494.jpg)
 
-Some of the files in this repo do not work (i.e. my ventures into FST to translate binary into decimal) but there are some attempts to make them work. (Practices)[https://github.com/ClaireBookworm/haskell-fsa/blob/main/basics.hs] I did to understand basic haskell is here as well, but a lot of found from random places on the internet and Haskell books!
+Some of the files in this repo do not work (i.e. my ventures into FST to translate binary into decimal) but there are some attempts to make them work. [Practices](https://github.com/ClaireBookworm/haskell-fsa/blob/main/basics.hs) I did to understand basic haskell is here as well, but a lot of found from random places on the internet and Haskell books!
